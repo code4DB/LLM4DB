@@ -44,6 +44,10 @@ Table of Contents
 
 *Avanika Narayan, Ines Chami, Laurel J. Orr, Christopher Ré. VLDB 2022.* [[pdf](https://www.vldb.org/pvldb/vol16/p738-narayan.pdf)]
 
+**LLM for Data Management**
+
+*Guoliang Li, Xuanhe Zhou, Xinyang Zhao. VLDB 2024 Tutorial.* [[pdf](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/p2031-li-vldb2024.pdf)]
+
 **Data Management For Training Large Language Models: A Survey**
 
 *Zige Wang, Wanjun Zhong, Yufei Wang, Qi Zhu, Fei Mi, Baojun Wang, Lifeng Shang, Xin Jiang, Qun Liu. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2312.01700)]

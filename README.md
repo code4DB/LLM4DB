@@ -1,6 +1,6 @@
-##  LLM x DB
+## [Paper List] LLM4DB
 
-Continuously update the works regarding *(1) Large Language Model for Database (LLM4DB)* and *(2) Database for Large Language Model (DB4LLM)* based on our past tutorials.
+A collection of papers and resources related to applying LLM techniques in data management (e.g., data processing, data optimization, and data analysis)
 
 Kindly let us know if we have missed any great papers. Thank you!
 

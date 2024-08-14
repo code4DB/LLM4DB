@@ -62,8 +62,6 @@ Table of Contents
 
 ## 1. LLM for Data Processing
 
-There are relevant works currently, we prioritize papers in the database field.
-
 ### 1.1 Data Cleaning
 
 **Jellyfish: A Large Language Model for Data Preprocessing.**

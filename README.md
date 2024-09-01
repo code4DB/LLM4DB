@@ -44,15 +44,11 @@ Table of Contents
 
 *Avanika Narayan, Ines Chami, Laurel J. Orr, Christopher Ré. VLDB 2022.* [[pdf](https://www.vldb.org/pvldb/vol16/p738-narayan.pdf)]
 
-**Panda: Performance debugging for databases using LLM agents.**
-
-*Singh V, Vaidya K E, Kumar V B, et al. CIDR 2024.* [[pdf](https://www.amazon.science/publications/panda-performance-debugging-for-databases-using-llm-agents)]
-
 **Multimodal Table Understanding.**
 
 *Zheng M, Feng X, Si Q, et al. ACL 2024.* [[pdf](https://arxiv.org/pdf/2406.08100)]
 
-**ableVLM: Multi-modal pre-training for table structure recognition.**
+**TableVLM: Multi-modal pre-training for table structure recognition.**
 
 *Chen L, Huang C, Zheng X, et al. ACL 2023.* [[pdf](https://aclanthology.org/2023.acl-long.137.pdf)]
 
@@ -174,9 +170,9 @@ Table of Contents
 
 ### 2.2 Database Diagnosis
 
-**Panda: Performance debugging for databases using LLM agents**
+**Panda: Performance debugging for databases using LLM agents.**
 
-*Vikramank Singh, Kapil Eknath Vaidya, ..., Tim Kraska. CIDR 2024*. [[pdf](https://www.amazon.science/publications/panda-performance-debugging-for-databases-using-llm-agents)]
+*Singh V, Vaidya K E, Kumar V B, et al. CIDR 2024.* [[pdf](https://www.amazon.science/publications/panda-performance-debugging-for-databases-using-llm-agents)]
 
 **LLM As DBA**
 

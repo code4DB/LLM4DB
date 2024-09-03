@@ -168,6 +168,10 @@ Table of Contents
 
 *Huang X, Li H, Zhang J, et al. arXiv 2024* [[pdf](https://arxiv.org/pdf/2404.11581)]
 
+**LATuner: An LLM-Enhanced Database Tuning System Based on Adaptive Surrogate Model**
+
+*Fan C, Pan Z, Sun W, et al. Joint European Conference on Machine Learning and Knowledge Discovery in Databases. 2024* [[pdf](https://link.springer.com/chapter/10.1007/978-3-031-70362-1_22)]
+
 ### 2.2 Database Diagnosis
 
 **Panda: Performance debugging for databases using LLM agents.**

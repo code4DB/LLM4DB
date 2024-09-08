@@ -107,6 +107,10 @@ Table of Contents
 
 *Tianshu Wang, Hongyu Lin, Xiaoyang Chen, Xianpei Han, Hao Wang, Zhenyu Zeng, Le Sun. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2405.16884)]
 
+**ZeroEA: A Zero-Training Entity Alignment Framework via Pre-Trained Language Model**
+
+*Nan Huo, Reynold Cheng, Ben Kao, Wentao Ning, Nur Al Hasan Haldar, Xiaodong Li, Jinyang Li, Mohammad Matin Najafi, Tian Li, Ge Qu. VLDB 2024.* [[pdf](https://www.vldb.org/pvldb/vol17/p1765-huo.pdf)]
+
 **Unicorn: A Unified Multi-tasking Model for Supporting Matching Tasks in Data Integration**
 
 *Jianhong Tu, Ju Fan, Nan Tang, Peng Wang, Guoliang Li, Xiaoyong Du. SIGMOD 2023.* [[pdf](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/Unicorn_PACMMOD.pdf)]
@@ -192,7 +196,19 @@ Table of Contents
 
 **The Dawn of Natural Language to SQL: Are We Fully Ready?**
 
-*Boyan Li, Yuyu Luo, Chengliang Chai, Guoliang Li, Nan Tang. VLDB 2024* [[pdf](https://arxiv.org/pdf/2406.01265)]
+*Boyan Li, Yuyu Luo, Chengliang Chai, Guoliang Li, Nan Tang. VLDB 2024.* [[pdf](https://arxiv.org/pdf/2406.01265)]
+
+**Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation**
+
+*Dawei Gao, Haibin Wang, Yaliang Li, Xiuyu Sun, Yichen Qian, Bolin Ding, Jingren Zhou. VLDB 2024.* [[pdf](https://www.vldb.org/pvldb/vol17/p1132-gao.pdf)]
+
+**CodeS: Towards Building Open-source Language Models for Text-to-SQL**
+
+*Haoyang Li, Jing Zhang, Hanbing Liu, Ju Fan, Xiaokang Zhang, Jun Zhu, Renjie Wei, Hongyan Pan, Cuiping Li, Hong Chen. SIGMOD 2024.* [[pdf](https://arxiv.org/pdf/2402.16347)]
+
+**Combining Small Language Models and Large Language Models for Zero-Shot NL2SQL**
+
+*Ju Fan, Zihui Gu, Songyue Zhang, Yuxin Zhang, Zui Chen, Lei Cao, Guoliang Li, Samuel Madden, Xiaoyong Du, Nan Tang. VLDB 2024.* [[pdf](https://www.vldb.org/pvldb/vol17/p2750-fan.pdf)]
 
 **From BERT to GPT-3 Codex: Harnessing the Potential of Very Large Language Models for Data Management**
 
@@ -202,7 +218,6 @@ Table of Contents
 
 *Zihui Gu, Ju Fan, Nan Tang, et al. SIGMOD 2023.* [[pdf](http://iir.ruc.edu.cn/~fanj/papers/sigmod2023-scprompt.pdf)]
 
-
 ### 3.2 Data Exploration
 
 **Db-gpt: Empowering database interactions with private large language models**
@@ -210,6 +225,10 @@ Table of Contents
 *Siqiao Xue, Caigao Jiang, Wenhui Shi, Fangyin Cheng, Keting Chen, Hongjun Yang, Zhiping Zhang, Jianshan He, Hongyang Zhang, Ganglin Wei, Wang Zhao, Fan Zhou, Danrui Qi, Hong Yi, Shaodong Liu, Faqiang Chen. arxiv 2023.* [[pdf](https://arxiv.org/pdf/2312.17449)]
 
 ### 3.3 Data Visualization
+
+**Automated Data Visualization from Natural Language via Large Language Models: An Exploratory Study**
+
+*Yang Wu, Yao Wan, Hongyu Zhang, Yulei Sui, Wucai Wei, Wei Zhao, Guandong Xu, Hai Jin. SIGMOD 2024.* [[pdf](https://dl.acm.org/doi/10.1145/3654992)]
 
 **LLM4Vis: Explainable Visualization Recommendation using ChatGPT**
 

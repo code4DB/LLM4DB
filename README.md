@@ -1,28 +1,28 @@
-## [Paper List] LLM4DB
+##  LLM x DB
 
-A collection of papers and resources related to applying LLM techniques in data management (e.g., data processing, data optimization, and data analysis)
+Continuously update the works regarding *(1) Large Language Model for Database (LLM4DB)* and *(2) Database for Large Language Model (DB4LLM)* based on our past tutorials.
 
 Kindly let us know if we have missed any great papers. Thank you!
 
 Table of Contents
 =================
 
-* [0. System and Review](#0-system-and-review)
+* [0. System & Review](#0-system-&-review)
 * [1. LLM for Data Processing](#1-llm-for-data-processing)
-  * [1.1 Data Cleaning](#11-data-cleaning)
-  * [1.2 Entity Matching](#12-entity-matching)
-  * [1.3 Schema Matching](#13-schema-matching)
-  * [1.4 Data Discovery](#14-data-discovery)
+	* [1.1 Data Cleaning](#11-data-cleaning)
+	* [1.2 Entity Matching](#12-entity-matching)
+	* [1.3 Schema Matching](#13-schema-matching)
+	* [1.4 Data Discovery](#14-data-discovery)
 * [2. LLM for Database Optimization](#2-llm-for-database-optimization)
-  * [2.1 Knob Tuning](#21-knob-tuning)
-  * [2.2 Database Diagnosis](#22-database-diagnosis)
+	* [2.1 Knob Tuning](#21-knob-tuning)
+	* [2.2 Database Diagnosis](#22-database-diagnosis)
 * [3. LLM for Data Analysis](#3-llm-for-data-analysis)
-  * [3.1 NL2SQL](#31-nl2sql)
-  * [3.2 Data Exploration](#32-data-exploration)
-  * [3.3 Data Visualization](#33-data-visualization)
+	* [3.1 NL2SQL](#31-nl2sql)
+	* [3.2 Data Exploration](#32-data-exploration)
+	* [3.3 Data Visualization](#33-data-visualization)
 * [4. Data Management for LLM](#4-data-management-for-llm)
 
-## 0. System and Review
+## 0. System & Review
 
 **How Large Language Models Will Disrupt Data Management**
 
@@ -31,6 +31,14 @@ Table of Contents
 **From Large Language Models to Databases and Back: A Discussion on Research and Education**
 
 *Sihem Amer-Yahia, Angela Bonifati, Lei Chen, Guoliang Li, Kyuseok Shim, Jianliang Xu, Xiaochun Yang. SIGMOD Record.* [[pdf](https://sigmodrecord.org/publications/sigmodRecord/2309/pdfs/09_OpenForum_AmerYahia.pdf)]
+
+**Applications and Challenges for Large Language Models: From Data Management Perspective.**
+
+*Zhang, Meihui, Zhaoxuan Ji, Zhaojing Luo, Yuncheng Wu, and Chengliang Chai. ICDE 2024.* [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10598077)]
+
+**Demystifying Data Management for Large Language Models**
+
+*Xupeng Miao, Zhihao Jia, and Bin Cui. SIGMOD 2024.* [[pdf](https://dl.acm.org/doi/pdf/10.1145/3626246.3654683)]
 
 **DB-GPT: Large Language Model Meets Database**
 
@@ -43,18 +51,6 @@ Table of Contents
 **Can Foundation Models Wrangle Your Data?**
 
 *Avanika Narayan, Ines Chami, Laurel J. Orr, Christopher Ré. VLDB 2022.* [[pdf](https://www.vldb.org/pvldb/vol16/p738-narayan.pdf)]
-
-**Multimodal Table Understanding.**
-
-*Zheng M, Feng X, Si Q, et al. ACL 2024.* [[pdf](https://arxiv.org/pdf/2406.08100)]
-
-**TableVLM: Multi-modal pre-training for table structure recognition.**
-
-*Chen L, Huang C, Zheng X, et al. ACL 2023.* [[pdf](https://aclanthology.org/2023.acl-long.137.pdf)]
-
-**LLM for Data Management**
-
-*Guoliang Li, Xuanhe Zhou, Xinyang Zhao. VLDB 2024 Tutorial.* [[pdf](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/p2031-li-vldb2024.pdf)]
 
 **Data Management For Training Large Language Models: A Survey**
 
@@ -69,6 +65,8 @@ Table of Contents
 *Immanuel Trummer. VLDB 2023.* [[pdf](https://www.vldb.org/pvldb/vol15/p3770-trummer.pdf)]
 
 ## 1. LLM for Data Processing
+
+There are relevant works currently, we prioritize papers in the database field.
 
 ### 1.1 Data Cleaning
 
@@ -96,6 +94,10 @@ Table of Contents
 
 *Haochen Zhang, Yuyang Dong, Chuan Xiao, Masafumi Oyamada. arxiv 2023.* [[pdf](https://arxiv.org/pdf/2308.16361)]
 
+**Data Cleaning Using Large Language Models.**
+
+*Shuo Zhang, Zezhou Huang, Eugene Wu. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2410.15547)]
+
 
 ### 1.2 Entity Matching
 
@@ -103,13 +105,17 @@ Table of Contents
 
 *Meihao Fan, Xiaoyue Han, Ju Fan, Chengliang Chai, Nan Tang, Guoliang Li, Xiaoyong Du. ICDE 2024.* [[pdf](https://arxiv.org/pdf/2312.03987)]
 
+**In Situ Neural Relational Schema Matcher.**
+
+*Xingyu Du, Gongsheng Yuan, Sai Wu, Gang Chen, and Peng Lu. ICDE 2024.* [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10597805)]
+
 **Match, Compare, or Select? An Investigation of Large Language Models for Entity Matching**
 
 *Tianshu Wang, Hongyu Lin, Xiaoyang Chen, Xianpei Han, Hao Wang, Zhenyu Zeng, Le Sun. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2405.16884)]
 
-**ZeroEA: A Zero-Training Entity Alignment Framework via Pre-Trained Language Model**
+**KcMF: A Knowledge-compliant Framework for Schema and Entity Matching with Fine-tuning-free LLMs.**
 
-*Nan Huo, Reynold Cheng, Ben Kao, Wentao Ning, Nur Al Hasan Haldar, Xiaodong Li, Jinyang Li, Mohammad Matin Najafi, Tian Li, Ge Qu. VLDB 2024.* [[pdf](https://www.vldb.org/pvldb/vol17/p1765-huo.pdf)]
+*Yongqin Xu, Huan Li, Ke Chen, Lidan Shou. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2410.12480)]
 
 **Unicorn: A Unified Multi-tasking Model for Supporting Matching Tasks in Data Integration**
 
@@ -137,6 +143,10 @@ Table of Contents
 
 *Yunjia Zhang, Avrilia Floratou, Joyce Cahoon, Subru Krishnan, Andreas C. Müller, Dalitso Banda, Fotis Psallidas, Jignesh M. Patel. ICDE 2023.* [[pdf](https://ieeexplore.ieee.org/document/10184612)]
 
+**KcMF: A Knowledge-compliant Framework for Schema and Entity Matching with Fine-tuning-free LLMs.**
+
+*Yongqin Xu, Huan Li, Ke Chen, Lidan Shou. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2410.12480)]
+
 ### 1.4 Data Discovery
 
 **CHORUS: Foundation Models for Unified Data Discovery and Exploration**
@@ -155,7 +165,6 @@ Table of Contents
 ## 2. LLM for Database Optimization
 
 ### 2.1 Knob Tuning
-
 **Is Large Language Model Good at Database Knob Tuning? A Comprehensive Experimental Evaluation**
 
 *Yiyan Li, Haoyang Li, Zhao Pu, Jing Zhang, Xinyi Zhang, Tao Ji, Luming Sun, Cuiping Li, Hong Chen*. [[pdf](https://arxiv.org/abs/2408.02213)]
@@ -168,19 +177,12 @@ Table of Contents
 
 *Immanuel Trummer. SIGMOD 2022.* [[pdf](https://dl.acm.org/doi/10.1145/3514221.3520171)]
 
-**LLMTune: Accelerate Database Knob Tuning with Large Language Models**
-
-*Huang X, Li H, Zhang J, et al. arXiv 2024* [[pdf](https://arxiv.org/pdf/2404.11581)]
-
-**LATuner: An LLM-Enhanced Database Tuning System Based on Adaptive Surrogate Model**
-
-*Fan C, Pan Z, Sun W, et al. Joint European Conference on Machine Learning and Knowledge Discovery in Databases. 2024* [[pdf](https://link.springer.com/chapter/10.1007/978-3-031-70362-1_22)]
 
 ### 2.2 Database Diagnosis
 
-**Panda: Performance debugging for databases using LLM agents.**
+**Panda: Performance debugging for databases using LLM agents**
 
-*Singh V, Vaidya K E, Kumar V B, et al. CIDR 2024.* [[pdf](https://www.amazon.science/publications/panda-performance-debugging-for-databases-using-llm-agents)]
+*Vikramank Singh, Kapil Eknath Vaidya, ..., Tim Kraska. CIDR 2024*. [[pdf](https://www.amazon.science/publications/panda-performance-debugging-for-databases-using-llm-agents)]
 
 **LLM As DBA**
 
@@ -198,17 +200,21 @@ Table of Contents
 
 *Boyan Li, Yuyu Luo, Chengliang Chai, Guoliang Li, Nan Tang. VLDB 2024.* [[pdf](https://arxiv.org/pdf/2406.01265)]
 
-**Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation**
+**PURPLE: Making a Large Language Model a Better SQL Writer.**
 
-*Dawei Gao, Haibin Wang, Yaliang Li, Xiuyu Sun, Yichen Qian, Bolin Ding, Jingren Zhou. VLDB 2024.* [[pdf](https://www.vldb.org/pvldb/vol17/p1132-gao.pdf)]
+*Ren, Tonghui, Yuankai Fan, Zhenying He, Ren Huang, Jiaqi Dai, Can Huang, Yinan Jing, Kai Zhang, Yifan Yang, and X. Sean Wang. ICDE 2024.*[[pdf](https://arxiv.org/pdf/2403.20014)]
 
-**CodeS: Towards Building Open-source Language Models for Text-to-SQL**
+**LR-SQL: A Supervised Fine-Tuning Method for Text2SQL Tasks under Low-Resource Scenarios.**
 
-*Haoyang Li, Jing Zhang, Hanbing Liu, Ju Fan, Xiaokang Zhang, Jun Zhu, Renjie Wei, Hongyan Pan, Cuiping Li, Hong Chen. SIGMOD 2024.* [[pdf](https://arxiv.org/pdf/2402.16347)]
+*Wen Wuzhenghong, Zhang Yongpan, Pan Su, Sun Yuwei, Lu Pengwei, Ding Cheng. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2410.11457)]
 
-**Combining Small Language Models and Large Language Models for Zero-Shot NL2SQL**
+**CHASE-SQL: Multi-Path Reasoning and Preference Optimized Candidate Selection in Text-to-SQL.**
 
-*Ju Fan, Zihui Gu, Songyue Zhang, Yuxin Zhang, Zui Chen, Lei Cao, Guoliang Li, Samuel Madden, Xiaoyong Du, Nan Tang. VLDB 2024.* [[pdf](https://www.vldb.org/pvldb/vol17/p2750-fan.pdf)]
+*Mohammadreza Pourreza, Hailong Li, Ruoxi Sun, Yeounoh Chung, Shayan Talaei, Gaurav Tarlok Kakkar, Yu Gan, Amin Saberi, Fatma Ozcan, Sercan O. Arik. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2410.01943)]
+
+**MoMQ: Mixture-of-Experts Enhances Multi-Dialect Query Generation across Relational and Non-Relational Databases.**
+
+*Zhisheng Lin, Yifu Liu, Zhiling Luo, Jinyang Gao, Yu Li. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2410.18406)]
 
 **From BERT to GPT-3 Codex: Harnessing the Potential of Very Large Language Models for Data Management**
 
@@ -218,6 +224,7 @@ Table of Contents
 
 *Zihui Gu, Ju Fan, Nan Tang, et al. SIGMOD 2023.* [[pdf](http://iir.ruc.edu.cn/~fanj/papers/sigmod2023-scprompt.pdf)]
 
+
 ### 3.2 Data Exploration
 
 **Db-gpt: Empowering database interactions with private large language models**
@@ -225,10 +232,6 @@ Table of Contents
 *Siqiao Xue, Caigao Jiang, Wenhui Shi, Fangyin Cheng, Keting Chen, Hongjun Yang, Zhiping Zhang, Jianshan He, Hongyang Zhang, Ganglin Wei, Wang Zhao, Fan Zhou, Danrui Qi, Hong Yi, Shaodong Liu, Faqiang Chen. arxiv 2023.* [[pdf](https://arxiv.org/pdf/2312.17449)]
 
 ### 3.3 Data Visualization
-
-**Automated Data Visualization from Natural Language via Large Language Models: An Exploratory Study**
-
-*Yang Wu, Yao Wan, Hongyu Zhang, Yulei Sui, Wucai Wei, Wei Zhao, Guandong Xu, Hai Jin. SIGMOD 2024.* [[pdf](https://dl.acm.org/doi/10.1145/3654992)]
 
 **LLM4Vis: Explainable Visualization Recommendation using ChatGPT**
 
@@ -239,6 +242,10 @@ Table of Contents
 **Data-Juicer: A One-Stop Data Processing System for Large Language Models**
 
 *Daoyuan Chen, Yilun Huang, Zhijian Ma, Hesen Chen, Xuchen Pan, Ce Ge, Dawei Gao, Yuexiang Xie, Zhaoyang Liu, Jinyang Gao, Yaliang Li, Bolin Ding, Jingren Zhou. SIGMOD 2024.* [[pdf](https://arxiv.org/pdf/2309.02033)]
+
+**CoachLM: Automatic Instruction Revisions Improve the Data Quality in LLM Instruction Tuning.**
+
+*Liu, Yilun, Shimin Tao, Xiaofeng Zhao, Ming Zhu, Wenbing Ma, Junhao Zhu, Chang Su et al. ICDE 2024.* [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10597991)]
 
 **Relational Database Augmented Large Language Model**
 

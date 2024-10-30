@@ -165,9 +165,16 @@ There are relevant works currently, we prioritize papers in the database field.
 ## 2. LLM for Database Optimization
 
 ### 2.1 Knob Tuning
+
+**LATuner: An LLM-Enhanced Database Tuning System Based on Adaptive Surrogate Model**
+*Fan C, Pan Z, Sun W, et al. Joint European Conference on Machine Learning and Knowledge Discovery in Databases. 2024.* [[pdf](https://link.springer.com/chapter/10.1007/978-3-031-70362-1_22)]
+
+**LLMTune: Accelerate Database Knob Tuning with Large Language Models**
+*Huang X, Li H, Zhang J, et al. arXiv 2024.* [[pdf](https://arxiv.org/pdf/2404.11581)]
+
 **Is Large Language Model Good at Database Knob Tuning? A Comprehensive Experimental Evaluation**
 
-*Yiyan Li, Haoyang Li, Zhao Pu, Jing Zhang, Xinyi Zhang, Tao Ji, Luming Sun, Cuiping Li, Hong Chen*. [[pdf](https://arxiv.org/abs/2408.02213)]
+*Yiyan Li, Haoyang Li, Zhao Pu, Jing Zhang, Xinyi Zhang, Tao Ji, Luming Sun, Cuiping Li, Hong Chen. arXiv 2024.* [[pdf](https://arxiv.org/abs/2408.02213)]
 
 **GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization**
 

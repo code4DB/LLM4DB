@@ -15,7 +15,8 @@ Table of Contents
 	* [1.4 Data Discovery](#14-data-discovery)
 * [2. LLM for Database Optimization](#2-llm-for-database-optimization)
 	* [2.1 Knob Tuning](#21-knob-tuning)
-	* [2.2 Database Diagnosis](#22-database-diagnosis)
+   	* [2.2 Query Optimization](#22-query-optimization)
+	* [2.3 Database Diagnosis](#23-database-diagnosis)
 * [3. LLM for Data Analysis](#3-llm-for-data-analysis)
 	* [3.1 NL2SQL](#31-nl2sql)
 	* [3.2 Data Exploration](#32-data-exploration)
@@ -23,6 +24,10 @@ Table of Contents
 * [4. Data Management for LLM](#4-data-management-for-llm)
 
 ## 0. System & Review
+
+**NeurDB: On the Design and Implementation of an AI-powered Autonomous Database**
+
+**hanhao Zhao, Shaofeng Cai, Haotian Gao, Hexiang Pan, Siqi Xiang, Naili Xing, Gang Chen, Beng Chin Ooi, Yanyan Shen, Yuncheng Wu, Meihui Zhang. CIDR 2025.* [[pdf](https://www.arxiv.org/pdf/2408.03013)]
 
 **How Large Language Models Will Disrupt Data Management**
 
@@ -70,7 +75,7 @@ There are relevant works currently, we prioritize papers in the database field.
 
 ### 1.1 Data Cleaning
 
-**Jellyfish: A Large Language Model for Data Preprocessing.**
+**Jellyfish: A Large Language Model for Data Preprocessing**
 
 *Haochen Zhang, Yuyang Dong, Chuan Xiao, Masafumi Oyamada. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2312.01678)]
 
@@ -94,7 +99,7 @@ There are relevant works currently, we prioritize papers in the database field.
 
 *Haochen Zhang, Yuyang Dong, Chuan Xiao, Masafumi Oyamada. arxiv 2023.* [[pdf](https://arxiv.org/pdf/2308.16361)]
 
-**Data Cleaning Using Large Language Models.**
+**Data Cleaning Using Large Language Models**
 
 *Shuo Zhang, Zezhou Huang, Eugene Wu. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2410.15547)]
 
@@ -105,7 +110,7 @@ There are relevant works currently, we prioritize papers in the database field.
 
 *Meihao Fan, Xiaoyue Han, Ju Fan, Chengliang Chai, Nan Tang, Guoliang Li, Xiaoyong Du. ICDE 2024.* [[pdf](https://arxiv.org/pdf/2312.03987)]
 
-**In Situ Neural Relational Schema Matcher.**
+**In Situ Neural Relational Schema Matcher**
 
 *Xingyu Du, Gongsheng Yuan, Sai Wu, Gang Chen, and Peng Lu. ICDE 2024.* [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10597805)]
 
@@ -113,7 +118,7 @@ There are relevant works currently, we prioritize papers in the database field.
 
 *Tianshu Wang, Hongyu Lin, Xiaoyang Chen, Xianpei Han, Hao Wang, Zhenyu Zeng, Le Sun. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2405.16884)]
 
-**KcMF: A Knowledge-compliant Framework for Schema and Entity Matching with Fine-tuning-free LLMs.**
+**KcMF: A Knowledge-compliant Framework for Schema and Entity Matching with Fine-tuning-free LLMs**
 
 *Yongqin Xu, Huan Li, Ke Chen, Lidan Shou. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2410.12480)]
 
@@ -143,7 +148,7 @@ There are relevant works currently, we prioritize papers in the database field.
 
 *Yunjia Zhang, Avrilia Floratou, Joyce Cahoon, Subru Krishnan, Andreas C. Müller, Dalitso Banda, Fotis Psallidas, Jignesh M. Patel. ICDE 2023.* [[pdf](https://ieeexplore.ieee.org/document/10184612)]
 
-**KcMF: A Knowledge-compliant Framework for Schema and Entity Matching with Fine-tuning-free LLMs.**
+**KcMF: A Knowledge-compliant Framework for Schema and Entity Matching with Fine-tuning-free LLMs**
 
 *Yongqin Xu, Huan Li, Ke Chen, Lidan Shou. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2410.12480)]
 
@@ -166,10 +171,16 @@ There are relevant works currently, we prioritize papers in the database field.
 
 ### 2.1 Knob Tuning
 
+**λ-Tune: Harnessing Large Language Models for Automated Database System Tuning**
+
+*Victor Giannankouris, Immanuel Trummer. SIGMOD 2025.* [[pdf](https://arxiv.org/pdf/2411.03500)]
+
 **LATuner: An LLM-Enhanced Database Tuning System Based on Adaptive Surrogate Model**
+
 *Fan C, Pan Z, Sun W, et al. Joint European Conference on Machine Learning and Knowledge Discovery in Databases. 2024.* [[pdf](https://link.springer.com/chapter/10.1007/978-3-031-70362-1_22)]
 
 **LLMTune: Accelerate Database Knob Tuning with Large Language Models**
+
 *Huang X, Li H, Zhang J, et al. arXiv 2024.* [[pdf](https://arxiv.org/pdf/2404.11581)]
 
 **Is Large Language Model Good at Database Knob Tuning? A Comprehensive Experimental Evaluation**
@@ -184,8 +195,17 @@ There are relevant works currently, we prioritize papers in the database field.
 
 *Immanuel Trummer. SIGMOD 2022.* [[pdf](https://dl.acm.org/doi/10.1145/3514221.3520171)]
 
+### 2.2 Query Optimization
 
-### 2.2 Database Diagnosis
+**LLM-R2: A Large Language Model Enhanced Rule-based Rewrite System for Boosting Query Efficiency**
+
+*Zhaodonghui Li, Haitao Yuan#, Huiming Wang, Gao Cong, Lidong Bing. VLDB 2024.* [[pdf](https://arxiv.org/pdf/2404.12872)]
+
+**The Unreasonable Effectiveness of LLMs for Query Optimization**
+
+*Peter Akioyamen, Zixuan Yi, Ryan Marcus. NeurIPS 2024 (Workshop).* [[pdf](https://arxiv.org/pdf/2411.02862)]
+
+### 2.3 Database Diagnosis
 
 **Panda: Performance debugging for databases using LLM agents**
 
@@ -203,23 +223,31 @@ There are relevant works currently, we prioritize papers in the database field.
 
 ### 3.1 NL2SQL
 
+**Text2SQL is Not Enough: Unifying AI and Databases with TAG**
+
+*Asim Biswal, Siddharth Jha, Carlos Guestrin, Matei Zaharia, Joseph E Gonzalez, Amog Kamsetty, Shu Liu, Liana Patel. CIDR 2025.* [[pdf](https://arxiv.org/pdf/2408.14717)]
+
 **The Dawn of Natural Language to SQL: Are We Fully Ready?**
 
 *Boyan Li, Yuyu Luo, Chengliang Chai, Guoliang Li, Nan Tang. VLDB 2024.* [[pdf](https://arxiv.org/pdf/2406.01265)]
 
-**PURPLE: Making a Large Language Model a Better SQL Writer.**
+**PURPLE: Making a Large Language Model a Better SQL Writer**
 
 *Ren, Tonghui, Yuankai Fan, Zhenying He, Ren Huang, Jiaqi Dai, Can Huang, Yinan Jing, Kai Zhang, Yifan Yang, and X. Sean Wang. ICDE 2024.*[[pdf](https://arxiv.org/pdf/2403.20014)]
 
-**LR-SQL: A Supervised Fine-Tuning Method for Text2SQL Tasks under Low-Resource Scenarios.**
+**Grounding Natural Language to SQL Translation with Data-Based Self-Explanations**
+
+*Yuankai Fan, Tonghui Ren, Can Huang, Zhenying He, X. Sean Wang. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2411.02948)]
+
+**LR-SQL: A Supervised Fine-Tuning Method for Text2SQL Tasks under Low-Resource Scenarios**
 
 *Wen Wuzhenghong, Zhang Yongpan, Pan Su, Sun Yuwei, Lu Pengwei, Ding Cheng. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2410.11457)]
 
-**CHASE-SQL: Multi-Path Reasoning and Preference Optimized Candidate Selection in Text-to-SQL.**
+**CHASE-SQL: Multi-Path Reasoning and Preference Optimized Candidate Selection in Text-to-SQL**
 
 *Mohammadreza Pourreza, Hailong Li, Ruoxi Sun, Yeounoh Chung, Shayan Talaei, Gaurav Tarlok Kakkar, Yu Gan, Amin Saberi, Fatma Ozcan, Sercan O. Arik. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2410.01943)]
 
-**MoMQ: Mixture-of-Experts Enhances Multi-Dialect Query Generation across Relational and Non-Relational Databases.**
+**MoMQ: Mixture-of-Experts Enhances Multi-Dialect Query Generation across Relational and Non-Relational Databases**
 
 *Zhisheng Lin, Yifu Liu, Zhiling Luo, Jinyang Gao, Yu Li. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2410.18406)]
 
@@ -250,7 +278,7 @@ There are relevant works currently, we prioritize papers in the database field.
 
 *Daoyuan Chen, Yilun Huang, Zhijian Ma, Hesen Chen, Xuchen Pan, Ce Ge, Dawei Gao, Yuexiang Xie, Zhaoyang Liu, Jinyang Gao, Yaliang Li, Bolin Ding, Jingren Zhou. SIGMOD 2024.* [[pdf](https://arxiv.org/pdf/2309.02033)]
 
-**CoachLM: Automatic Instruction Revisions Improve the Data Quality in LLM Instruction Tuning.**
+**CoachLM: Automatic Instruction Revisions Improve the Data Quality in LLM Instruction Tuning**
 
 *Liu, Yilun, Shimin Tao, Xiaofeng Zhao, Ming Zhu, Wenbing Ma, Junhao Zhu, Chang Su et al. ICDE 2024.* [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10597991)]
 

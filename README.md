@@ -235,6 +235,18 @@ There are relevant works currently, we prioritize papers in the database field.
 
 *Ren, Tonghui, Yuankai Fan, Zhenying He, Ren Huang, Jiaqi Dai, Can Huang, Yinan Jing, Kai Zhang, Yifan Yang, and X. Sean Wang. ICDE 2024.*[[pdf](https://arxiv.org/pdf/2403.20014)]
 
+**SM3-Text-to-Query: Synthetic Multi-Model Medical Text-to-Query Benchmark**
+
+*Sithursan Sivasubramaniam, Cedric Osei-Akoto, Yi Zhang, Kurt Stockinger, Jonathan Fuerst. NeurIPS 2024.* [[pdf](https://arxiv.org/pdf/2411.05521)]
+
+**Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows**
+
+*Fangyu Lei, Jixuan Chen, Yuxiao Ye, Ruisheng Cao, Dongchan Shin, Hongjin Su, Zhaoqing Suo, Hongcheng Gao, Wenjing Hu, Pengcheng Yin, Victor Zhong, Caiming Xiong, Ruoxi Sun, Qian Liu, Sida Wang, Tao Yu. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2411.07763)]
+
+**SiriusBI: Building End-to-End Business Intelligence Enhanced by Large Language Models**
+
+*Jie Jiang, Haining Xie, Yu Shen, Zihan Zhang, Meng Lei, Yifeng Zheng, Yide Fang, Chunyou Li, Danqing Huang, Wentao Zhang, Yang Li, Xiaofeng Yang, Bin Cui, Peng Chen. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2411.06102)]
+
 **Grounding Natural Language to SQL Translation with Data-Based Self-Explanations**
 
 *Yuankai Fan, Tonghui Ren, Can Huang, Zhenying He, X. Sean Wang. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2411.02948)]

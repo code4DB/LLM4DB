@@ -116,7 +116,7 @@ There are relevant works currently, we prioritize papers in the database field.
 
 **Match, Compare, or Select? An Investigation of Large Language Models for Entity Matching**
 
-*Tianshu Wang, Hongyu Lin, Xiaoyang Chen, Xianpei Han, Hao Wang, Zhenyu Zeng, Le Sun. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2405.16884)]
+*Tianshu Wang, Hongyu Lin, Xiaoyang Chen, Xianpei Han, Hao Wang, Zhenyu Zeng, Le Sun. COLING 2025.* [[pdf](https://arxiv.org/pdf/2405.16884)]
 
 **KcMF: A Knowledge-compliant Framework for Schema and Entity Matching with Fine-tuning-free LLMs**
 

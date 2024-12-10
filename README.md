@@ -106,6 +106,10 @@ There are relevant works currently, we prioritize papers in the database field.
 
 ### 1.2 Entity Matching
 
+**Match, Compare, or Select? An Investigation of Large Language Models for Entity Matching**
+
+*Tianshu Wang, Hongyu Lin, Xiaoyang Chen, Xianpei Han, Hao Wang, Zhenyu Zeng, Le Sun. COLING 2025.* [[pdf](https://arxiv.org/pdf/2405.16884)]
+
 **Cost-Effective In-Context Learning for Entity Resolution: A Design Space Exploration**
 
 *Meihao Fan, Xiaoyue Han, Ju Fan, Chengliang Chai, Nan Tang, Guoliang Li, Xiaoyong Du. ICDE 2024.* [[pdf](https://arxiv.org/pdf/2312.03987)]
@@ -113,10 +117,6 @@ There are relevant works currently, we prioritize papers in the database field.
 **In Situ Neural Relational Schema Matcher**
 
 *Xingyu Du, Gongsheng Yuan, Sai Wu, Gang Chen, and Peng Lu. ICDE 2024.* [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10597805)]
-
-**Match, Compare, or Select? An Investigation of Large Language Models for Entity Matching**
-
-*Tianshu Wang, Hongyu Lin, Xiaoyang Chen, Xianpei Han, Hao Wang, Zhenyu Zeng, Le Sun. COLING 2025.* [[pdf](https://arxiv.org/pdf/2405.16884)]
 
 **KcMF: A Knowledge-compliant Framework for Schema and Entity Matching with Fine-tuning-free LLMs**
 

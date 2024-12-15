@@ -75,6 +75,10 @@ There are relevant works currently, we prioritize papers in the database field.
 
 ### 1.1 Data Cleaning
 
+**AutoDCWorkflow: LLM-based Data Cleaning Workflow Auto-Generation and Benchmark**
+
+*Lan Li, Liri Fang, Vetle I. Torvik. arxiv 2024. [[pdf]()]*
+
 **Jellyfish: A Large Language Model for Data Preprocessing**
 
 *Haochen Zhang, Yuyang Dong, Chuan Xiao, Masafumi Oyamada. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2312.01678)]
@@ -140,6 +144,10 @@ There are relevant works currently, we prioritize papers in the database field.
 
 ### 1.3 Schema Matching
 
+**Magneto: Combining Small and Large Language Models for Schema Matching**
+
+*Yurong Liu, Eduardo Pena, Aécio Santos, Eden Wu, Juliana Freire. arix 2024. [[pdf](https://arxiv.org/pdf/2412.08194)]*
+
 **Schema Matching with Large Language Models: an Experimental Study**
 
 *Marcel Parciak, Brecht Vandevoort, Frank Neven, Liesbet M. Peeters, Stijn Vansummeren. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2407.11852)]
@@ -175,6 +183,10 @@ There are relevant works currently, we prioritize papers in the database field.
 
 *Victor Giannankouris, Immanuel Trummer. SIGMOD 2025.* [[pdf](https://arxiv.org/pdf/2411.03500)]
 
+**Automatic Database Configuration Debugging using Retrieval-Augmented Language Models**
+
+*Sibei Chen, Ju Fan, Bin Wu, Nan Tang, Chao Deng, Pengyi PYW Wang, Ye Li, Jian Tan, Feifei Li, Jingren Zhou, Xiaoyong Du. SIGMOD 2025. [[pdf](https://arxiv.org/pdf/2412.07548)]*
+
 **LATuner: An LLM-Enhanced Database Tuning System Based on Adaptive Surrogate Model**
 
 *Fan C, Pan Z, Sun W, et al. Joint European Conference on Machine Learning and Knowledge Discovery in Databases. 2024.* [[pdf](https://link.springer.com/chapter/10.1007/978-3-031-70362-1_22)]
@@ -204,6 +216,10 @@ There are relevant works currently, we prioritize papers in the database field.
 **The Unreasonable Effectiveness of LLMs for Query Optimization**
 
 *Peter Akioyamen, Zixuan Yi, Ryan Marcus. NeurIPS 2024 (Workshop).* [[pdf](https://arxiv.org/pdf/2411.02862)]
+
+**R-Bot: An LLM-based Query Rewrite System**
+
+*Zhaoyan Sun, Xuanhe Zhou, Guoliang Li. arxiv 2024. [[pdf](https://arxiv.org/pdf/2412.01661)]*
 
 ### 2.3 Database Diagnosis
 
@@ -238,6 +254,10 @@ There are relevant works currently, we prioritize papers in the database field.
 **SM3-Text-to-Query: Synthetic Multi-Model Medical Text-to-Query Benchmark**
 
 *Sithursan Sivasubramaniam, Cedric Osei-Akoto, Yi Zhang, Kurt Stockinger, Jonathan Fuerst. NeurIPS 2024.* [[pdf](https://arxiv.org/pdf/2411.05521)]
+
+**Towards Automated Cross-domain Exploratory Data Analysis through Large Language Models**
+
+*Jun-Peng Zhu, Boyan Niu, Peng Cai, Zheming Ni, Jianwei Wan, Kai Xu, Jiajun Huang, Shengbo Ma, Bing Wang, Xuan Zhou, Guanglei Bao, Donghui Zhang, Liu Tang, and Qi Liu. arxiv 2024. [[pdf](https://arxiv.org/pdf/2412.07214)]*
 
 **Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows**
 

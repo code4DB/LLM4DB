@@ -1,8 +1,8 @@
 ##  LLM x DB
 
-Continuously update the works in *LLM for Data Processing*, *LLM for Data Analysis*, and *LLM for Data System Optimization*, *Data Managment Systems for LLM* based on our past tutorial [slides](https://github.com/code4DB/LLM4DB/blob/main/LLM-Meets-Data-v4.pdf).
+Continuously update the works in *(1) LLM for Data Processing*, *(2) LLM for Data Analysis*, *(3) LLM for Data System Optimization*, and *(4) Data Managment for LLM* based on our past tutorial [[slides](https://github.com/code4DB/LLM4DB/blob/main/LLM-Meets-Data-v4.pdf)].
 
-Kindly let us know if we have missed any great papers. Thank you!
+Kindly let us know if we have missed any great papers. Thank you! :)
 
 Table of Contents
 =================

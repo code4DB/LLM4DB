@@ -1,6 +1,6 @@
 ##  LLM x DB
 
-Continuously update the works regarding *(1) Large Language Model for Database (LLM4DB)* and *(2) Database for Large Language Model (DB4LLM)* based on our past tutorials.
+Continuously update the works in *LLM for Data Processing*, *LLM for Data Analysis*, and *LLM for Data System Optimization*, *Data Managment Systems for LLM* based on our past tutorials.
 
 Kindly let us know if we have missed any great papers. Thank you!
 
@@ -13,14 +13,14 @@ Table of Contents
 	* [1.2 Entity Matching](#12-entity-matching)
 	* [1.3 Schema Matching](#13-schema-matching)
 	* [1.4 Data Discovery](#14-data-discovery)
-* [2. LLM for Database Optimization](#2-llm-for-database-optimization)
-	* [2.1 Knob Tuning](#21-knob-tuning)
-   	* [2.2 Query Optimization](#22-query-optimization)
-	* [2.3 Database Diagnosis](#23-database-diagnosis)
-* [3. LLM for Data Analysis](#3-llm-for-data-analysis)
-	* [3.1 NL2SQL](#31-nl2sql)
-	* [3.2 Data Exploration](#32-data-exploration)
-	* [3.3 Data Visualization](#33-data-visualization)
+* [2. LLM for Data Analysis](#2-llm-for-data-analysis)
+	* [2.1 NL2SQL](#21-nl2sql)
+	* [2.2 Data Exploration](#22-data-exploration)
+	* [2.3 Data Visualization](#23-data-visualization)
+* [3. LLM for Database Optimization](#3-llm-for-database-optimization)
+	* [3.1 Knob Tuning](#31-knob-tuning)
+   	* [3.2 Query Optimization](#32-query-optimization)
+	* [3.3 Database Diagnosis](#33-database-diagnosis)
 * [4. Data Management for LLM](#4-data-management-for-llm)
 
 ## 0. System & Review
@@ -69,9 +69,14 @@ Table of Contents
 
 *Immanuel Trummer. VLDB 2023.* [[pdf](https://www.vldb.org/pvldb/vol15/p3770-trummer.pdf)]
 
+**Survey of Vector Database Management Systems**
+
+*James Jie Pan, Jianguo Wang, Guoliang Li. arxiv 2023.* [[pdf](https://arxiv.org/pdf/2310.14021)]
+
+
 ## 1. LLM for Data Processing
 
-There are relevant works currently, we prioritize papers in the database field.
+There are many related works, with a focus on prioritizing papers within the database field.
 
 ### 1.1 Data Cleaning
 
@@ -175,69 +180,11 @@ There are relevant works currently, we prioritize papers in the database field.
 *Yuyang Dong, Chuan Xiao, Takuma Nozawa, Masafumi Enomoto, Masafumi Oyamada. VLDB 2023.* [[pdf](https://www.vldb.org/pvldb/vol16/p2458-dong.pdf)]
 
 
-## 2. LLM for Database Optimization
+## 2. LLM for Data Analysis
 
-### 2.1 Knob Tuning
+### 2.1 NL2SQL
 
-**λ-Tune: Harnessing Large Language Models for Automated Database System Tuning**
-
-*Victor Giannankouris, Immanuel Trummer. SIGMOD 2025.* [[pdf](https://arxiv.org/pdf/2411.03500)]
-
-**Automatic Database Configuration Debugging using Retrieval-Augmented Language Models**
-
-*Sibei Chen, Ju Fan, Bin Wu, Nan Tang, Chao Deng, Pengyi PYW Wang, Ye Li, Jian Tan, Feifei Li, Jingren Zhou, Xiaoyong Du. SIGMOD 2025. [[pdf](https://arxiv.org/pdf/2412.07548)]*
-
-**LATuner: An LLM-Enhanced Database Tuning System Based on Adaptive Surrogate Model**
-
-*Fan C, Pan Z, Sun W, et al. Joint European Conference on Machine Learning and Knowledge Discovery in Databases. 2024.* [[pdf](https://link.springer.com/chapter/10.1007/978-3-031-70362-1_22)]
-
-**LLMTune: Accelerate Database Knob Tuning with Large Language Models**
-
-*Huang X, Li H, Zhang J, et al. arXiv 2024.* [[pdf](https://arxiv.org/pdf/2404.11581)]
-
-**Is Large Language Model Good at Database Knob Tuning? A Comprehensive Experimental Evaluation**
-
-*Yiyan Li, Haoyang Li, Zhao Pu, Jing Zhang, Xinyi Zhang, Tao Ji, Luming Sun, Cuiping Li, Hong Chen. arXiv 2024.* [[pdf](https://arxiv.org/abs/2408.02213)]
-
-**GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization**
-
-*Jiale Lao, Yibo Wang, Yufei Li, Jianping Wang, Yunjia Zhang, Zhiyuan Cheng, Wanghu Chen, Mingjie Tang, Jianguo Wang. VLDB 2024.* [[pdf](https://dl.acm.org/doi/10.14778/3659437.3659449)]
-
-**DB-BERT: a Database Tuning Tool that “Reads the Manual”**
-
-*Immanuel Trummer. SIGMOD 2022.* [[pdf](https://dl.acm.org/doi/10.1145/3514221.3520171)]
-
-### 2.2 Query Optimization
-
-**LLM-R2: A Large Language Model Enhanced Rule-based Rewrite System for Boosting Query Efficiency**
-
-*Zhaodonghui Li, Haitao Yuan#, Huiming Wang, Gao Cong, Lidong Bing. VLDB 2024.* [[pdf](https://arxiv.org/pdf/2404.12872)]
-
-**The Unreasonable Effectiveness of LLMs for Query Optimization**
-
-*Peter Akioyamen, Zixuan Yi, Ryan Marcus. NeurIPS 2024 (Workshop).* [[pdf](https://arxiv.org/pdf/2411.02862)]
-
-**R-Bot: An LLM-based Query Rewrite System**
-
-*Zhaoyan Sun, Xuanhe Zhou, Guoliang Li. arxiv 2024. [[pdf](https://arxiv.org/pdf/2412.01661)]*
-
-### 2.3 Database Diagnosis
-
-**Panda: Performance debugging for databases using LLM agents**
-
-*Vikramank Singh, Kapil Eknath Vaidya, ..., Tim Kraska. CIDR 2024*. [[pdf](https://www.amazon.science/publications/panda-performance-debugging-for-databases-using-llm-agents)]
-
-**LLM As DBA**
-
-*Xuanhe Zhou, Guoliang Li, Zhiyuan Liu. arXiv 2023*. [[pdf](https://arxiv.org/abs/2308.05481)]
-
-**D-Bot: Database Diagnosis System using Large Language Models** 
-
-*Xuanhe Zhou, Guoliang Li, Zhaoyan Sun, Zhiyuan Liu, Weize Chen, et al. VLDB 2024.* [[pdf](https://arxiv.org/pdf/2312.01454.pdf)] [[code](https://github.com/TsinghuaDatabaseGroup/DB-GPT)]  
-
-## 3. LLM for Data Analysis
-
-### 3.1 NL2SQL
+There are many related works, with a focus on prioritizing NL2SQL papers within the database field.
 
 **Text2SQL is Not Enough: Unifying AI and Databases with TAG**
 
@@ -292,17 +239,79 @@ There are relevant works currently, we prioritize papers in the database field.
 *Zihui Gu, Ju Fan, Nan Tang, et al. SIGMOD 2023.* [[pdf](http://iir.ruc.edu.cn/~fanj/papers/sigmod2023-scprompt.pdf)]
 
 
-### 3.2 Data Exploration
+### 2.2 Data Exploration
 
 **Db-gpt: Empowering database interactions with private large language models**
 
 *Siqiao Xue, Caigao Jiang, Wenhui Shi, Fangyin Cheng, Keting Chen, Hongjun Yang, Zhiping Zhang, Jianshan He, Hongyang Zhang, Ganglin Wei, Wang Zhao, Fan Zhou, Danrui Qi, Hong Yi, Shaodong Liu, Faqiang Chen. arxiv 2023.* [[pdf](https://arxiv.org/pdf/2312.17449)]
 
-### 3.3 Data Visualization
+### 2.3 Data Visualization
 
 **LLM4Vis: Explainable Visualization Recommendation using ChatGPT**
 
 *Lei Wang, Songheng Zhang, Yun Wang, Ee-Peng Lim, Yong Wang. EMNLP 2023.* [[pdf](https://aclanthology.org/2023.emnlp-industry.64.pdf)]
+
+
+## 3. LLM for Database Optimization
+
+### 3.1 Knob Tuning
+
+**λ-Tune: Harnessing Large Language Models for Automated Database System Tuning**
+
+*Victor Giannankouris, Immanuel Trummer. SIGMOD 2025.* [[pdf](https://arxiv.org/pdf/2411.03500)]
+
+**Automatic Database Configuration Debugging using Retrieval-Augmented Language Models**
+
+*Sibei Chen, Ju Fan, Bin Wu, Nan Tang, Chao Deng, Pengyi PYW Wang, Ye Li, Jian Tan, Feifei Li, Jingren Zhou, Xiaoyong Du. SIGMOD 2025. [[pdf](https://arxiv.org/pdf/2412.07548)]*
+
+**LATuner: An LLM-Enhanced Database Tuning System Based on Adaptive Surrogate Model**
+
+*Fan C, Pan Z, Sun W, et al. Joint European Conference on Machine Learning and Knowledge Discovery in Databases. 2024.* [[pdf](https://link.springer.com/chapter/10.1007/978-3-031-70362-1_22)]
+
+**LLMTune: Accelerate Database Knob Tuning with Large Language Models**
+
+*Huang X, Li H, Zhang J, et al. arXiv 2024.* [[pdf](https://arxiv.org/pdf/2404.11581)]
+
+**Is Large Language Model Good at Database Knob Tuning? A Comprehensive Experimental Evaluation**
+
+*Yiyan Li, Haoyang Li, Zhao Pu, Jing Zhang, Xinyi Zhang, Tao Ji, Luming Sun, Cuiping Li, Hong Chen. arXiv 2024.* [[pdf](https://arxiv.org/abs/2408.02213)]
+
+**GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization**
+
+*Jiale Lao, Yibo Wang, Yufei Li, Jianping Wang, Yunjia Zhang, Zhiyuan Cheng, Wanghu Chen, Mingjie Tang, Jianguo Wang. VLDB 2024.* [[pdf](https://dl.acm.org/doi/10.14778/3659437.3659449)]
+
+**DB-BERT: a Database Tuning Tool that “Reads the Manual”**
+
+*Immanuel Trummer. SIGMOD 2022.* [[pdf](https://dl.acm.org/doi/10.1145/3514221.3520171)]
+
+### 3.2 Query Optimization
+
+**LLM-R2: A Large Language Model Enhanced Rule-based Rewrite System for Boosting Query Efficiency**
+
+*Zhaodonghui Li, Haitao Yuan#, Huiming Wang, Gao Cong, Lidong Bing. VLDB 2024.* [[pdf](https://arxiv.org/pdf/2404.12872)]
+
+**The Unreasonable Effectiveness of LLMs for Query Optimization**
+
+*Peter Akioyamen, Zixuan Yi, Ryan Marcus. NeurIPS 2024 (Workshop).* [[pdf](https://arxiv.org/pdf/2411.02862)]
+
+**R-Bot: An LLM-based Query Rewrite System**
+
+*Zhaoyan Sun, Xuanhe Zhou, Guoliang Li. arxiv 2024. [[pdf](https://arxiv.org/pdf/2412.01661)]*
+
+### 3.3 Database Diagnosis
+
+**Panda: Performance debugging for databases using LLM agents**
+
+*Vikramank Singh, Kapil Eknath Vaidya, ..., Tim Kraska. CIDR 2024*. [[pdf](https://www.amazon.science/publications/panda-performance-debugging-for-databases-using-llm-agents)]
+
+**LLM As DBA**
+
+*Xuanhe Zhou, Guoliang Li, Zhiyuan Liu. arXiv 2023*. [[pdf](https://arxiv.org/abs/2308.05481)]
+
+**D-Bot: Database Diagnosis System using Large Language Models** 
+
+*Xuanhe Zhou, Guoliang Li, Zhaoyan Sun, Zhiyuan Liu, Weize Chen, et al. VLDB 2024.* [[pdf](https://arxiv.org/pdf/2312.01454.pdf)] [[code](https://github.com/TsinghuaDatabaseGroup/DB-GPT)]  
+
 
 ## 4. Data Management for LLM
 
@@ -318,6 +327,3 @@ There are relevant works currently, we prioritize papers in the database field.
 
 *Zongyue Qin, Chen Luo, Zhengyang Wang, Haoming Jiang, Yizhou Sun. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2407.15071)]
 
-**Survey of Vector Database Management Systems**
-
-*James Jie Pan, Jianguo Wang, Guoliang Li. arxiv 2023.* [[pdf](https://arxiv.org/pdf/2310.14021)]

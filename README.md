@@ -53,6 +53,10 @@ Table of Contents
 
 *Xuanhe Zhou, Xinyang Zhao, Guoliang Li. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2402.02643)]
 
+**Trustworthy and Efficient LLMs Meet Databases**
+
+*Kyoungmin Kim, Anastasia Ailamaki. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2412.18022)]
+
 **Can Foundation Models Wrangle Your Data?**
 
 *Avanika Narayan, Ines Chami, Laurel J. Orr, Christopher Ré. VLDB 2022.* [[pdf](https://www.vldb.org/pvldb/vol16/p738-narayan.pdf)]
@@ -80,17 +84,17 @@ There are many related works, with a focus on prioritizing papers within the dat
 
 ### 1.1 Data Cleaning
 
+**GIDCL: A Graph-Enhanced Interpretable Data Cleaning Framework with Large Language Models**
+
+*Mengyi Yan, Yaoshu Wang, Yue Wang, Xiaoye Miao, Jianxin Li. SIGMOD 2025.* [[pdf](https://dl.acm.org/doi/10.1145/3698811)]
+
 **AutoDCWorkflow: LLM-based Data Cleaning Workflow Auto-Generation and Benchmark**
 
-*Lan Li, Liri Fang, Vetle I. Torvik. arxiv 2024. [[pdf]()]*
+*Lan Li, Liri Fang, Vetle I. Torvik. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2412.06724)]
 
 **Jellyfish: A Large Language Model for Data Preprocessing**
 
 *Haochen Zhang, Yuyang Dong, Chuan Xiao, Masafumi Oyamada. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2312.01678)]
-
-**LLMs with User-defined Prompts as Generic Data Operators for Reliable Data Processing**
-
-*Luyi Ma, Nikhil Thakurdesai, Jiao Chen, Jianpeng Xu, Evren Körpeoglu, Sushant Kumar, Kannan Achan. IEEE Big Data 2023.* [[pdf](https://arxiv.org/pdf/2312.16351)]
 
 **CleanAgent: Automating Data Standardization with LLM-based Agents**
 
@@ -99,6 +103,10 @@ There are many related works, with a focus on prioritizing papers within the dat
 **LLMClean: Context-Aware Tabular Data Cleaning via LLM-Generated OFDs**
 
 *Fabian Biester, Mohamed Abdelaal, Daniel Del Gaudio. arxiv 2024.* [[pdf](https://arxiv.org/abs/2404.18681)]
+
+**LLMs with User-defined Prompts as Generic Data Operators for Reliable Data Processing**
+
+*Luyi Ma, Nikhil Thakurdesai, Jiao Chen, Jianpeng Xu, Evren Körpeoglu, Sushant Kumar, Kannan Achan. IEEE Big Data 2023.* [[pdf](https://arxiv.org/pdf/2312.16351)]
 
 **SEED: Domain-Specific Data Curation With Large Language Models**
 

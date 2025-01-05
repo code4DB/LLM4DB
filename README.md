@@ -88,6 +88,10 @@ There are many related works, with a focus on prioritizing papers within the dat
 
 *Mengyi Yan, Yaoshu Wang, Yue Wang, Xiaoye Miao, Jianxin Li. SIGMOD 2025.* [[pdf](https://dl.acm.org/doi/10.1145/3698811)]
 
+**Mind the Data Gap: Bridging LLMs to Enterprise Data Integration**
+
+*Moe Kayali, Fabian Wenz, Nesime Tatbul, Çağatay Demiralp. CIDR 2025.* [[pdf](https://arxiv.org/pdf/2412.20331)]
+
 **AutoDCWorkflow: LLM-based Data Cleaning Workflow Auto-Generation and Benchmark**
 
 *Lan Li, Liri Fang, Vetle I. Torvik. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2412.06724)]

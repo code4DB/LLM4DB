@@ -161,6 +161,10 @@ There are many related works, with a focus on prioritizing papers within the dat
 
 ### 1.3 Schema Matching
 
+**Knowledge Graph-based Retrieval-Augmented Generation for Schema Matching**
+
+*Chuangtao Ma, Sriom Chakrabarti, Arijit Khan, Bálint Molnár. arxiv 2024. [[pdf](https://arxiv.org/pdf/2501.08686)]*
+
 **Magneto: Combining Small and Large Language Models for Schema Matching**
 
 *Yurong Liu, Eduardo Pena, Aécio Santos, Eden Wu, Juliana Freire. arix 2024. [[pdf](https://arxiv.org/pdf/2412.08194)]*
@@ -208,7 +212,7 @@ There are many related works, with a focus on prioritizing NL2SQL papers within 
 
 **PURPLE: Making a Large Language Model a Better SQL Writer**
 
-*Ren, Tonghui, Yuankai Fan, Zhenying He, Ren Huang, Jiaqi Dai, Can Huang, Yinan Jing, Kai Zhang, Yifan Yang, and X. Sean Wang. ICDE 2024.*[[pdf](https://arxiv.org/pdf/2403.20014)]
+*Ren, Tonghui, Yuankai Fan, Zhenying He, Ren Huang, Jiaqi Dai, Can Huang, Yinan Jing, Kai Zhang, Yifan Yang, and X. Sean Wang. ICDE 2024.* [[pdf](https://arxiv.org/pdf/2403.20014)]
 
 **SM3-Text-to-Query: Synthetic Multi-Model Medical Text-to-Query Benchmark**
 
@@ -216,7 +220,7 @@ There are many related works, with a focus on prioritizing NL2SQL papers within 
 
 **Towards Automated Cross-domain Exploratory Data Analysis through Large Language Models**
 
-*Jun-Peng Zhu, Boyan Niu, Peng Cai, Zheming Ni, Jianwei Wan, Kai Xu, Jiajun Huang, Shengbo Ma, Bing Wang, Xuan Zhou, Guanglei Bao, Donghui Zhang, Liu Tang, and Qi Liu. arxiv 2024. [[pdf](https://arxiv.org/pdf/2412.07214)]*
+*Jun-Peng Zhu, Boyan Niu, Peng Cai, Zheming Ni, Jianwei Wan, Kai Xu, Jiajun Huang, Shengbo Ma, Bing Wang, Xuan Zhou, Guanglei Bao, Donghui Zhang, Liu Tang, and Qi Liu. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2412.07214)]
 
 **Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows**
 

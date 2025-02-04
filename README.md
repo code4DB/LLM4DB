@@ -37,7 +37,7 @@ Table of Contents
 
 *Sihem Amer-Yahia, Angela Bonifati, Lei Chen, Guoliang Li, Kyuseok Shim, Jianliang Xu, Xiaochun Yang. SIGMOD Record.* [[pdf](https://sigmodrecord.org/publications/sigmodRecord/2309/pdfs/09_OpenForum_AmerYahia.pdf)]
 
-**Applications and Challenges for Large Language Models: From Data Management Perspective.**
+**Applications and Challenges for Large Language Models: From Data Management Perspective**
 
 *Zhang, Meihui, Zhaoxuan Ji, Zhaojing Luo, Yuncheng Wu, and Chengliang Chai. ICDE 2024.* [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10598077)]
 
@@ -206,6 +206,10 @@ There are many related works, with a focus on prioritizing NL2SQL papers within 
 
 *Asim Biswal, Siddharth Jha, Carlos Guestrin, Matei Zaharia, Joseph E Gonzalez, Amog Kamsetty, Shu Liu, Liana Patel. CIDR 2025.* [[pdf](https://arxiv.org/pdf/2408.14717)]
 
+**CoddLLM: Empowering Large Language Models for Data Analytics**
+
+*Jiani Zhang, Hengrui Zhang, Rishav Chakravarti, Yiqun Hu, Patrick Ng, Asterios Katsifodimos, Huzefa Rangwala, George Karypis, Alon Halevy. arxiv 2025.* [[pdf](https://arxiv.org/pdf/2502.00329)]
+
 **The Dawn of Natural Language to SQL: Are We Fully Ready?**
 
 *Boyan Li, Yuyu Luo, Chengliang Chai, Guoliang Li, Nan Tang. VLDB 2024.* [[pdf](https://arxiv.org/pdf/2406.01265)]
@@ -254,8 +258,11 @@ There are many related works, with a focus on prioritizing NL2SQL papers within 
 
 *Zihui Gu, Ju Fan, Nan Tang, et al. SIGMOD 2023.* [[pdf](http://iir.ruc.edu.cn/~fanj/papers/sigmod2023-scprompt.pdf)]
 
-
 ### 2.2 Data Exploration
+
+**AutoDDG: Automated Dataset Description Generation using Large Language Models**
+
+*Haoxiang Zhang, Yurong Liu, Wei-Lun (Allen) Hung, Aécio Santos, Juliana Freire. arxiv 2025.* [[pdf](https://arxiv.org/pdf/2502.01050)]
 
 **Db-gpt: Empowering database interactions with private large language models**
 

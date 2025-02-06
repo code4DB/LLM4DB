@@ -274,7 +274,6 @@ There are many related works, with a focus on prioritizing NL2SQL papers within 
 
 *Lei Wang, Songheng Zhang, Yun Wang, Ee-Peng Lim, Yong Wang. EMNLP 2023.* [[pdf](https://aclanthology.org/2023.emnlp-industry.64.pdf)]
 
-
 ## 3. LLM for Database Optimization
 
 ### 3.1 Knob Tuning
@@ -285,11 +284,11 @@ There are many related works, with a focus on prioritizing NL2SQL papers within 
 
 **Automatic Database Configuration Debugging using Retrieval-Augmented Language Models**
 
-*Sibei Chen, Ju Fan, Bin Wu, Nan Tang, Chao Deng, Pengyi PYW Wang, Ye Li, Jian Tan, Feifei Li, Jingren Zhou, Xiaoyong Du. SIGMOD 2025. [[pdf](https://arxiv.org/pdf/2412.07548)]*
+*Sibei Chen, Ju Fan, Bin Wu, Nan Tang, Chao Deng, Pengyi PYW Wang, Ye Li, Jian Tan, Feifei Li, Jingren Zhou, Xiaoyong Du. SIGMOD 2025.* [[pdf](https://arxiv.org/pdf/2412.07548)]
 
 **LATuner: An LLM-Enhanced Database Tuning System Based on Adaptive Surrogate Model**
 
-*Fan C, Pan Z, Sun W, et al. Joint European Conference on Machine Learning and Knowledge Discovery in Databases. 2024.* [[pdf](https://link.springer.com/chapter/10.1007/978-3-031-70362-1_22)]
+*Fan C, Pan Z, Sun W, et al. Joint European Conference on Machine Learning and Knowledge Discovery in Databases 2024.* [[pdf](https://link.springer.com/chapter/10.1007/978-3-031-70362-1_22)]
 
 **LLMTune: Accelerate Database Knob Tuning with Large Language Models**
 
@@ -319,22 +318,33 @@ There are many related works, with a focus on prioritizing NL2SQL papers within 
 
 **R-Bot: An LLM-based Query Rewrite System**
 
-*Zhaoyan Sun, Xuanhe Zhou, Guoliang Li. arxiv 2024. [[pdf](https://arxiv.org/pdf/2412.01661)]*
+*Zhaoyan Sun, Xuanhe Zhou, Guoliang Li. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2412.01661)]
+
+**Query Rewriting via Large Language Models**
+
+*Jie Liu, Barzan Mozafari. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2403.09060)]
 
 ### 3.3 Database Diagnosis
-
-**Panda: Performance debugging for databases using LLM agents**
-
-*Vikramank Singh, Kapil Eknath Vaidya, ..., Tim Kraska. CIDR 2024*. [[pdf](https://www.amazon.science/publications/panda-performance-debugging-for-databases-using-llm-agents)]
-
-**LLM As DBA**
-
-*Xuanhe Zhou, Guoliang Li, Zhiyuan Liu. arXiv 2023*. [[pdf](https://arxiv.org/abs/2308.05481)]
 
 **D-Bot: Database Diagnosis System using Large Language Models** 
 
 *Xuanhe Zhou, Guoliang Li, Zhaoyan Sun, Zhiyuan Liu, Weize Chen, et al. VLDB 2024.* [[pdf](https://arxiv.org/pdf/2312.01454.pdf)] [[code](https://github.com/TsinghuaDatabaseGroup/DB-GPT)]  
 
+**Panda: Performance debugging for databases using LLM agents**
+
+*Vikramank Singh, Kapil Eknath Vaidya, ..., Tim Kraska. CIDR 2024.* [[pdf](https://www.amazon.science/publications/panda-performance-debugging-for-databases-using-llm-agents)]
+
+**DBG-PT: A Large Language Model Assisted Query Performance Regression Debugger**
+
+*Victor Giannakouris, Immanuel Trummer. VLDB 2024 (Demo).* [[pdf](https://www.vldb.org/pvldb/vol17/p4337-giannakouris.pdf)]
+
+**Query Performance Explanation through Large Language Model for HTAP Systems**
+
+*Haibo Xiu, Li Zhang, Tieying Zhang, Jun Yang, Jianjun Chen. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2412.01709)]
+
+**LLM As DBA**
+
+*Xuanhe Zhou, Guoliang Li, Zhiyuan Liu. arXiv 2023.* [[pdf](https://arxiv.org/abs/2308.05481)]
 
 ## 4. Data Management for LLM
 

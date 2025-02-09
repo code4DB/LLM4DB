@@ -27,7 +27,7 @@ Table of Contents
 
 **NeurDB: On the Design and Implementation of an AI-powered Autonomous Database**
 
-**hanhao Zhao, Shaofeng Cai, Haotian Gao, Hexiang Pan, Siqi Xiang, Naili Xing, Gang Chen, Beng Chin Ooi, Yanyan Shen, Yuncheng Wu, Meihui Zhang. CIDR 2025.* [[pdf](https://www.arxiv.org/pdf/2408.03013)]
+*hanhao Zhao, Shaofeng Cai, Haotian Gao, Hexiang Pan, Siqi Xiang, Naili Xing, Gang Chen, Beng Chin Ooi, Yanyan Shen, Yuncheng Wu, Meihui Zhang. CIDR 2025.* [[pdf](https://www.arxiv.org/pdf/2408.03013)]
 
 **How Large Language Models Will Disrupt Data Management**
 
@@ -68,10 +68,6 @@ Table of Contents
 **When Large Language Models Meet Vector Databases: A Survey**
 
 *Zhi Jing, Yongye Su, Yikun Han, Bo Yuan, Haiyun Xu, Chunjiang Liu, Kehai Chen, Min Zhang. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2402.01763)]
-
-**From BERT to GPT-3 Codex: Harnessing the Potential of Very Large Language Models for Data Management**
-
-*Immanuel Trummer. VLDB 2023.* [[pdf](https://www.vldb.org/pvldb/vol15/p3770-trummer.pdf)]
 
 **Survey of Vector Database Management Systems**
 
@@ -249,6 +245,10 @@ There are many related works, with a focus on prioritizing NL2SQL papers within 
 **MoMQ: Mixture-of-Experts Enhances Multi-Dialect Query Generation across Relational and Non-Relational Databases**
 
 *Zhisheng Lin, Yifu Liu, Zhiling Luo, Jinyang Gao, Yu Li. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2410.18406)]
+
+**Generating highly customizable python code for data processing with large language models**
+
+*Immanuel Trummer. VLDB Journal 2025.* [[pdf](https://link.springer.com/article/10.1007/s00778-025-00900-4)]
 
 **From BERT to GPT-3 Codex: Harnessing the Potential of Very Large Language Models for Data Management**
 

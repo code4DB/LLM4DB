@@ -308,6 +308,14 @@ There are many related works, with a focus on prioritizing NL2SQL papers within 
 
 ### 3.2 Query Optimization
 
+**Query Rewriting via LLMs**
+
+*Sriram Dharwada, Himanshu Devrani, Jayant Haritsa, Harish Doraiswamy. arxiv 2025.* [[pdf](https://arxiv.org/pdf/2502.12918)]
+
+**Can Large Language Models Be Query Optimizer for Relational Databases?**
+
+*Jie Tan, Kangfei Zhao, Rui Li, Jeffrey Xu Yu, Chengzhi Piao, Hong Cheng, Helen Meng, Deli Zhao, and Yu Rong. arxiv 2025.* [[pdf](https://arxiv.org/pdf/2502.05562)]
+
 **LLM-R2: A Large Language Model Enhanced Rule-based Rewrite System for Boosting Query Efficiency**
 
 *Zhaodonghui Li, Haitao Yuan#, Huiming Wang, Gao Cong, Lidong Bing. VLDB 2024.* [[pdf](https://arxiv.org/pdf/2404.12872)]
